@@ -99,9 +99,9 @@ const Reserve: React.FC = () => {
         </div>
 
         <Image
-          src={"/images/home/story/bg3.png"}
-          width={1058}
-          height={702}
+          src={"/images/home/story/bg3.jpg"}
+          width={1152}
+          height={2048}
           alt="Reserve Background"
           className="h-[500px] w-full object-cover md:h-full"
         />

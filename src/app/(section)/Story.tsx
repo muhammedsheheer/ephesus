@@ -5,10 +5,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const menuItems = [
-  { title: "Evening", image: "/images/home/story/1.png" },
-  { title: "drinks", image: "/images/home/story/2.png" },
-  { title: "kids", image: "/images/home/story/3.png" },
-  { title: "christmas", image: "/images/home/story/4.png" },
+  { title: "Evening", image: "/images/home/story/1.jpg" },
+  { title: "drinks", image: "/images/home/story/2.jpg" },
+  { title: "kids", image: "/images/home/story/3.jpg" },
+  { title: "christmas", image: "/images/home/story/4.jpg" },
 ];
 
 const Story: React.FC = () => {
@@ -31,7 +31,7 @@ const Story: React.FC = () => {
       <div className="z-40 flex flex-col gap-16 px-4 md:px-0">
         {/* Title */}
         <h1 className="text-center font-pathway text-4xl font-[400] uppercase tracking-[5px] text-[#DCCF90] md:text-5xl md:tracking-[10px]">
-          THE HEART BEHIND <br /> OUR PLATES
+          THE HEART BEHIND <br /> OUR GLASS
         </h1>
 
         {/* Menu Grid */}

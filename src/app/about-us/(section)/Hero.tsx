@@ -28,7 +28,7 @@ const Hero = ({}) => {
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-6 md:mt-16 lg:w-1/2">
             <motion.img
-              src="/images/about-us/2.png"
+              src="/images/about-us/2.jpg"
               width={951}
               height={975}
               alt="hero"

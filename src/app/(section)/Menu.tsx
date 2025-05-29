@@ -5,9 +5,9 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const menuItems = [
-  { title: "Turkish Guvec", image: "/images/home/menu/1.png" },
-  { title: "Meze platter", image: "/images/home/menu/2.png" },
-  { title: "Kebab platter", image: "/images/home/menu/3.png" },
+  { title: "Turkish Guvec", image: "/images/home/menu/1.jpg" },
+  { title: "Meze platter", image: "/images/home/menu/2.jpg" },
+  { title: "Kebab platter", image: "/images/home/menu/3.jpg" },
 ];
 
 const Menu: React.FC = () => {
@@ -63,9 +63,9 @@ const Menu: React.FC = () => {
                   transition={{ duration: 1.5, ease: "easeOut" }}
                 />
               </Link>
-              <h1 className="text-center font-pathway text-xl font-[400] uppercase tracking-[3px] text-[#DCCF90] md:text-3xl md:tracking-[5px]">
+              {/* <h1 className="text-center font-pathway text-xl font-[400] uppercase tracking-[3px] text-[#DCCF90] md:text-3xl md:tracking-[5px]">
                 {item.title}
-              </h1>
+              </h1> */}
             </div>
           ))}
         </div>

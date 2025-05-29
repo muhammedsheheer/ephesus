@@ -5,10 +5,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const menuItems = [
-  { title: "Evening", image: "/images/home/follow/1.png" },
-  { title: "drinks", image: "/images/home/follow/2.png" },
-  { title: "kids", image: "/images/home/follow/3.png" },
-  { title: "christmas", image: "/images/home/follow/4.png" },
+  { title: "Evening", image: "/images/home/follow/1.jpg" },
+  { title: "drinks", image: "/images/home/follow/2.jpg" },
+  { title: "kids", image: "/images/home/follow/3.jpg" },
+  { title: "christmas", image: "/images/home/follow/4.jpg" },
 ];
 
 const Follow: React.FC = () => {

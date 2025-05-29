@@ -27,7 +27,7 @@ const Gallery: React.FC = () => {
         {/* big screen */}
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-6">
           <motion.img
-            src="/images/home/gallery/1.png"
+            src="/images/home/gallery/1.jpg"
             alt="1"
             className="z-50 h-[200px] w-full object-cover md:h-[400px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -36,7 +36,7 @@ const Gallery: React.FC = () => {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/2.png"
+            src="/images/home/gallery/2.jpg"
             alt="2"
             className="z-50 h-[200px] w-full object-cover md:h-[400px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -45,7 +45,7 @@ const Gallery: React.FC = () => {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/3.png"
+            src="/images/home/gallery/3.jpg"
             alt="2"
             className="z-50 h-[200px] w-full object-cover md:h-[400px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -54,7 +54,7 @@ const Gallery: React.FC = () => {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/4.png"
+            src="/images/home/gallery/4.jpg"
             alt="2"
             className="z-50 h-[200px] w-full object-cover md:h-[400px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -63,7 +63,7 @@ const Gallery: React.FC = () => {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/5.png"
+            src="/images/home/gallery/5.jpg"
             alt="2"
             className="z-50 h-[200px] w-full object-cover md:h-[400px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -72,7 +72,7 @@ const Gallery: React.FC = () => {
             transition={{ duration: 1.5, ease: "easeOut" }}
           />
           <motion.img
-            src="/images/home/gallery/6.png"
+            src="/images/home/gallery/6.jpg"
             alt="2"
             className="z-50 h-[200px] w-full object-cover md:h-[400px]"
             initial={{ opacity: 0, y: 50, scale: 0.8 }}
